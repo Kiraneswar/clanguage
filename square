@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    // for decimals use float
+    int side;
+    printf("enter the value of the side :");
+    scanf("%d",&side);
+    int area;
+    area = side * side;
+    printf("the value of area %d",area);
+    // direct method
+    printf("area is %d",side*side);
+    return 0;
+
+}
