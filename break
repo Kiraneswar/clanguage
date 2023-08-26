@@ -12,5 +12,4 @@ int main(){
         }
     }while(1)
     printf("thank you");
-    return 0;
-}
+    
