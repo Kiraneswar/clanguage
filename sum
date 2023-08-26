@@ -9,6 +9,8 @@ int main(){
     scanf("%d",&b);
 
     int sum = a + b;
-    printf("sum is :&d",sum);
+    printf("sum is :%d",sum);
+    //no need to declare sum for this type
+    printf("sum is :%d",a + b);
     return 0;
 }
