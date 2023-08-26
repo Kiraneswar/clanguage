@@ -5,10 +5,10 @@ int main(){
     printf("enter your age :");
     scanf("%d ",&age);
 
-    if(age>18){
+    if(age >= 18){
         printf("your are an adult \n");
     }
-    else if(age>13&&age<18){
+    else if(age > 13 && age <18){
         printf("your are not an teenager \n");
     }
     else{
